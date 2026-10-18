@@ -1,0 +1,11 @@
+# 計画相談支援シミュレーター
+
+https://mokeni1211.github.io/consultation-subsidy-simulator/
+
+- income.html：件数・給与から収支を試算（給与以外の経費なし）
+- full-subsidy.html：補助金満額に必要な給与を逆算（その他経費年60万円固定）
+- linear.html：件数と収支の変化をグラフで比較（横軸はサービス利用支援件数）
+
+既存の income.html URL は維持。以前のトップにあった満額逆算版は full-subsidy.html に移動しました。
+
+令和8年度名古屋市の提供資料に基づく非公式試算です。入力はブラウザ内だけで計算し外部送信しません。依存ライブラリ・ビルド不要。HTMLと app.js/styles.css を同じフォルダーに保存して使用できます。
